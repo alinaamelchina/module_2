@@ -1,0 +1,289 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;      
+}
+.container {
+    width: 1400px;
+    background: #000;
+}
+.introduction {
+    background-image: url('../resourses/man.png');
+    height: 765px;
+    position: relative;
+}
+.container-logo {
+    width: 1400px;
+    height: 82px;
+}
+.logo-link-nav {
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 123px;
+    margin-right: 510px;
+    width: 130px;
+    height: 39px;
+    border-radius: 100px;
+    background: #000;
+}
+.nav :hover {
+    color: #1BFF07;
+}
+.logo-nav {
+    padding-left: 9px;
+    padding-top: 3px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 33px;
+    
+}
+.nav-link {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    margin-right: 41px;
+}
+.nav :nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.Hello {
+    position: absolute;
+    top: 466px;
+    left: 119px;
+    width: 919px;
+    height: 205px;
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px; /* 87.5% */
+    letter-spacing: -2.4px;
+}
+.skill {
+    position: absolute;
+    top: 334px;
+    left: 125px;
+    width: 430px;
+    height: 103px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+h2 {
+    margin-top: 150px;
+    margin-left: 120px;
+    width: 1048px;
+    color: #FFF;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+.title-projects {
+    top: 410px;
+    left: 50px;
+    width: 401px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+    position: absolute;
+}
+.text-projects {
+    top: 461px;
+    left: 50px;
+    width: 506px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    position: absolute;
+}
+.realhome {
+    top: 40px;
+    left: 125px;
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url('../resourses/realhome.png');
+    position: relative;
+}
+.glass {
+    top: 40px;
+    left: 125px;
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url('../resourses/glass.png');
+    position: relative;
+}
+.fesiyen {
+    top: 40px;
+    left: 125px;
+    width: 1150px;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url('../resourses/Fesiyen.png');
+    position: relative;
+}
+.link-projects {
+    display: block;
+    margin-top: 120px;
+    margin-left: 123px;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background: #1BFF07;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    line-height: 153px;
+    letter-spacing: -0.9px;
+    text-decoration: none;
+}
+.link-projects:hover {
+    color: #1BFF07;
+    background: #000;
+    border: 1px solid #1BFF07;
+}
+h3 {
+    margin-top: 150px;
+    margin-left: 123px;
+    width: 1048px;
+    color: #FFF;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+
+.list-title {
+    margin-top: 12px;
+    margin-left: 123px;
+    width: 1048px;
+    color: #1BFF07;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+.list-text {
+    margin-left: 123px;
+    margin-top: 15px;
+    width: 778px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+.img-list-html {
+    margin-top: 48px;
+    margin-left: 125px;
+}
+.img-list {
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-bottom: 4px;
+}
+h4 {
+    margin-top: 155px;
+    margin-left: 125px;
+    width: 403px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+.tasks-img {
+    border-radius: 30px;
+    margin-top: 74px;
+    margin-left: 125px;
+}
+.tasks-title {
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    width: 1048px;
+    color: #1BFF07;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+.tasks-text {
+    margin-left: 40px;
+    width: 749px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+.tasks-key {
+    margin-left: 125px;
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+.tasks-last:nth-last-child(1) {
+    margin-top: 60px;
+}
+.logo-link {
+    background-image: url('../resourses/logo.png');
+    padding-left: 125px;
+    margin-top: 150px;
+    align-items: center;
+    width: 1400px;
+    height: 717px;
+}
+h5 {
+    padding-top: 317px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -1.05px;
+}
+.logo-links {
+    padding-top: 23px;
+}
+.link-social {
+    color: #FFF;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    text-decoration: none;
+}
+.logo-links :hover {
+    color: #1BFF07;
+}
+.footer-logo {
+    margin-top: 150px;
+    width: 1400px;
+    height: 223px;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px ;
+    background: #FFF;
+}
+.portfolio {
+    padding-top: 76px;
+    padding-left: 125px;
+    color: #000;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+.rights {
+    padding-top: 66px;
+    padding-left: 125px;
+    color: #000;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    opacity: 0.5;
+}
